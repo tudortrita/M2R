@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.3in]{geometry}
+
+
+\begin{document}
+
+\noindent
+\LARGE{\textbf{Group 41}}
+\hfill
+\normalsize
+\textit{\textbf{Prof.Walden}}\\
+\textbf{Yifan Chen, Nishant Desai, Chang Goh, Maitanki Sutharson, Tudor Trita Trita}
+
+\begin{center}
+    \LARGE{\textbf{The Distribution of the Extreme from a Normal Sample}}
+\end{center}
+
+Ever wanted to predict when the next colossal earthquake will occur? Well, in this project, we look at earthquake data from Greece and we take the biggest earthquake that has happened every year since 1901 and then look for a distribution to fit the data to be able to derive statistical properties and make future predictions. It turns out that, asymptotically, there are only three types of distribution (Gumbel, Fr\'{e}chet and Weibull) that describe the data and these can be combined into one; the Generalised Extreme Value (GEV) distribution. We will begin by proving this result, known as the Fisher-Tippett Theorem (roughly think of it as the Central Limit Theorem but for extremes), and then we present methods (MoM, MLE, Probability Weighted Moments) for estimating the parameters of the Gumbel and GEV distributions. We then look at Quantile-Quantile (QQ) plots and their interpretations and we have a look at Bootstrapping techniques.
+
+Once the theory is out of the way, we will begin applying it. We do this by fitting a GEV to the Greece earthquake data, perform parameter estimations using the methods above and we then compare which method gives the best fit. We then use QQ plots and apply the Bootstrap Test to find the best model. Finally, we look at return periods which will give us predictions as to when to expect the next earthquake of a given magnitude. The techniques and distributions presented in the presentation have a wide range of applications when extreme events are considered, such as natural disaster prediction, hydrology and parts of the insurance business.
+
+
+\end{document}
