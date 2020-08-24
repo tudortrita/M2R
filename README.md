@@ -5,7 +5,7 @@ M2R Group Project (2017-2018), Imperial College London
 ### Abstract:
 
 In this project, we look at the properties of maxima arising from normal random samples. We
-will find that asymptotically, there are only three types of distribution (Gumbel, Frechet and
+will find that asymptotically, there are only three types of distribution (Gumbel, Frechet and
 Weibull) that describe the data and these can be combined into one; the Generalised Extreme
 Value (GEV) distribution. We will begin by proving this result, known as the Fisher-Tippett
 Theorem, and then we present methods (MoM, MLE, PWM) for estimating the parameters of the
@@ -15,7 +15,7 @@ Bootstrapping techniques, which find the model with the best t.
 The project then focuses on analysing earthquake data from Greece to be able to derive statistical
 properties and make future predictions. We do this by fitting a Gumbel distribution and GEV
 distribution to the Greece earthquake data, and estimating parameters for each model using the
-methods above. We then use QQ plots and Bootstrap Confi dence Intervals to find the model
+methods above. We then use QQ plots and Bootstrap Confidence Intervals to find the model
 thatts the Greek earthquake data the most. Finally, we look at return periods which will give
 predictions as to when to expect the next earthquake of a given magnitude.
 
