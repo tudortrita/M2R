@@ -13,10 +13,10 @@ Gumbel distribution and GEV distribution. We then look at Quantile-Quantile (QQ)
 Bootstrapping techniques, which find the model with the best t.
 
 The project then focuses on analysing earthquake data from Greece to be able to derive statistical
-properties and make future predictions. We do this by fitting a Gumbel distribution and GEV
+properties and make future predictions. We do this by fitting a Gumbel distribution and GEV
 distribution to the Greece earthquake data, and estimating parameters for each model using the
-methods above. We then use QQ plots and Bootstrap Confidence Intervals to find the model
-thatts the Greek earthquake data the most. Finally, we look at return periods which will give
+methods above. We then use QQ plots and Bootstrap Confidence Intervals to find the model
+that fits the Greek earthquake data the most. Finally, we look at return periods which will give
 predictions as to when to expect the next earthquake of a given magnitude.
 
 
